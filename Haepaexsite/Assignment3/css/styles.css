@@ -1,0 +1,167 @@
+body {
+  font-size: 16px;
+  color: #dcd9d9;
+  background-color: #588280;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #25bdb6;
+  border-radius: 0;
+  border: 0;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 250%;
+  text-align: center;
+  margin: 5px;
+  color: #5d4273;
+  text-shadow: 1px 1px 1px #b7bde4cc;
+}
+
+.section1, .section2, .section3 p{
+  text-align: justify;
+}
+
+.container{
+  width: 98%;
+  margin-left: 10px;
+}
+.navbar-header a {
+  font-weight: bold;
+  font-size: 100%;
+  text-transform: uppercase;
+  margin: 25px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #309cad;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #153271;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #f3e5ea;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #97dada;
+}
+#nav-list a:active {
+  background: #6d9e9e;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #dddee6;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  background: #17cccc;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #33566866;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#top-button{
+  text-decoration: none;
+  color: #7cd5f7;
+  width: 40px;
+  height: 40px;
+  background-color:#2c3a3a96;
+  margin: 10px;
+}
+
+#top-button:hover{
+  text-decoration: none;
+  text-decoration-line: none;
+  background-color: #3b9e9ed9;
+  color: #0a0e8c;
+  width: 50px;
+  height: 50px;
+}
+/********Responsive Framework********/
+.row{
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media(min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,{
+    float: left;
+  }
+  .navbar-brand h1{
+    font-size: 280%;
+    text-align: left;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    align-content: left;
+  }
+}
+
+/********** Medium devices only **********/
+@media(min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .colmd-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,{
+    float: left;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 250%;
+    padding-bottom: 5px; 
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+  }
+  .navbar-header{
+    width: 100%;
+  } 
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12,{
+    float: left;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+  }
+  .navbar-header{
+    width: 100%;
+  }
+}
+
