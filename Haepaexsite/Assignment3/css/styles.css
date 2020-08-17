@@ -21,6 +21,10 @@ h3{
   text-shadow: 1px 1px 1px #b7bde4cc;
 }
 
+h2{
+  text-align: center;
+}
+
 .section1, .section2, .section3 p{
   text-align: justify;
 }
